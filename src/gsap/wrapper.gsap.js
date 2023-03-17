@@ -22,6 +22,34 @@ const wrapperAddGsap = () => {
             }
         })
     
+        let itemsNameL = gsap.utils.toArray('.gallery__left .gallery__item__name')
+
+        itemsNameL.forEach(item => {
+            gsap.fromTo(item, { opacity: 0, x: -50 }, {
+                opacity: 0.9, x: 0,
+                scrollTrigger: {
+                    trigger: item,
+                    start: '-850',
+                    end: '-100',
+                    scrub: true
+                }
+            })
+        })
+
+        let itemsNameR = gsap.utils.toArray('.gallery__right .gallery__item__name')
+
+        itemsNameR.forEach(item => {
+            gsap.fromTo(item, { opacity: 0, x: -50 }, {
+                opacity: 0.9, x: 0,
+                scrollTrigger: {
+                    trigger: item,
+                    start: '-850',
+                    end: '-100',
+                    scrub: true
+                }
+            })
+        })
+
         let itemsL = gsap.utils.toArray('.gallery__left .gallery__item')
     
         itemsL.forEach(item => {

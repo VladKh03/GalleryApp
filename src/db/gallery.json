@@ -1,37 +1,37 @@
 [
     {
         "id": 1,
-        "name": "",
+        "name": "Name",
         "description": "",
         "url": "assets/img/gallery/1.jpg"
     },
     {
         "id": 2,
-        "name": "",
+        "name": "Name",
         "description": "",
         "url": "assets/img/gallery/2.jpg"
     },
     {
         "id": 3,
-        "name": "",
+        "name": "Name",
         "description": "",
         "url": "assets/img/gallery/3.jpg"
     },
     {
         "id": 4,
-        "name": "",
+        "name": "Name",
         "description": "",
         "url": "assets/img/gallery/4.jpg"
     },
     {
         "id": 5,
-        "name": "",
+        "name": "Name",
         "description": "",
         "url": "assets/img/gallery/5.jpg"
     },
     {
         "id": 6,
-        "name": "",
+        "name": "Name",
         "description": "",
         "url": "assets/img/gallery/6.jpg"
     }

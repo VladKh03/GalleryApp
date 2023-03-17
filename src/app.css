@@ -1,9 +1,11 @@
 * {
+	
+	cursor:url(./assets/cur.png), auto;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-:root {
+:root {	
 	--index: calc(1vw + 1vh);
 	--color-header: #f4efec;
 	--color-text: #cdc6c3;
@@ -24,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 .content, .hero, .main-header, .gallery > * {
 	will-change: transform;
 }
-body {
+body {	
 	background-image: url("./assets/img/bg.jpg");
 	background-size: 50px;
 	color: #fafafa;
@@ -32,6 +34,7 @@ body {
 	overflow-x: hidden;
 }
 .wrapper {
+	
 	visibility: hidden;
 }
 .hero {
@@ -69,6 +72,11 @@ body {
 	margin-bottom: var(--gallery-gap);
 	max-height: 180vh;
 	border-radius: 8px;
+	display: block;
+}
+.gallery__item__name {
+	font-size: 2rem;
+	position: flex;
 }
 .gallery__left {
 	margin-top: calc(var(--gallery-gap) * 1.75);
