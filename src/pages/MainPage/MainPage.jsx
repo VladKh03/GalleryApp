@@ -2,7 +2,7 @@ import React, {useRef, useEffect} from 'react';
 import { gsap } from 'gsap-trial';
 import wrapperAddGsap from '../../gsap/wrapper.gsap'
 
-import Header from './Header';
+import Upper from './Upper';
 import Body from './Body';
 
 const MainPage = () => {
@@ -16,7 +16,7 @@ const MainPage = () => {
     return (
         <div className="wrapper" ref={el => app = el}>
             <div className="content">
-                <Header/>
+                <Upper/>
                 <Body/>
             </div>
         </div>
